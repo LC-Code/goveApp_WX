@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "咨询记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "list": "/components/listView"
+  }
+}

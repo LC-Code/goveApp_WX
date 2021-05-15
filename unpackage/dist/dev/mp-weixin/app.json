@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userpage/userpage",
+    "pages/home/home",
+    "pages/userInfo/userInfo",
+    "pages/consultpage/consultpage",
+    "pages/criticizepage/criticizepage",
+    "pages/yuyue/yuyue",
+    "pages/jianyi/jianyi",
+    "pages/zixun/zixun",
+    "pages/over/over",
+    "pages/noover/noover"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#d92d31",
+    "permission": {
+      "scope.userLocation": {
+        "desc": "为了获取跟优质的服务，我们将获取你的位置信息"
+      }
+    },
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home"
+      },
+      {
+        "pagePath": "pages/userpage/userpage"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-image": "wxcomponents/@vant/weapp/image/index",
+    "van-loading": "wxcomponents/@vant/weapp/loading/index",
+    "van-tabbar": "wxcomponents/@vant/weapp/tabbar/index",
+    "van-tabbar-item": "wxcomponents/@vant/weapp/tabbar-item/index",
+    "van-icon": "wxcomponents/@vant/weapp/icon/index",
+    "van-divider": "wxcomponents/@vant/weapp/divider/index",
+    "van-cell": "wxcomponents/@vant/weapp/cell/index",
+    "van-cell-group": "wxcomponents/@vant/weapp/cell-group/index",
+    "van-field": "wxcomponents/@vant/weapp/field/index",
+    "van-picker": "wxcomponents/@vant/weapp/picker/index",
+    "van-popup": "wxcomponents/@vant/weapp/popup/index",
+    "van-action-sheet": "wxcomponents/@vant/weapp/action-sheet/index",
+    "van-datetime-picker": "wxcomponents/@vant/weapp/datetime-picker/index",
+    "van-calendar": "wxcomponents/@vant/weapp/calendar/index",
+    "van-dialog": "wxcomponents/@vant/weapp/dialog/index",
+    "van-toast": "wxcomponents/@vant/weapp/toast/index",
+    "van-notify": "wxcomponents/@vant/weapp/notify/index",
+    "van-collapse": "wxcomponents/@vant/weapp/collapse/index",
+    "van-collapse-item": "wxcomponents/@vant/weapp/collapse-item/index"
+  }
+}

@@ -1,0 +1,13 @@
+
+.noEntryClass {
+		font-size: 30rpx;
+		margin-top: 10rpx;
+		box-shadow: 0rpx -1rpx 10rpx #a9a9a9;
+}
+.entryClass {
+		text-align: center;
+		margin-top: 20rpx;
+		font-size: 30rpx;
+		color: #a9a9a9;
+}
+

@@ -1,0 +1,86 @@
+
+.main_content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	border: 2rpx solid #000000;
+	background-color: #E8E8E8;
+}
+
+/* 顶部图标 */
+.top {
+	/* border: 2rpx solid #07C160; */
+}
+.top image {
+	width: 100%;
+	height: 500rpx;
+}
+
+/* 个人信息输入框 */
+.intoUserInfo {
+	width: 650rpx;
+	height: 300rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* 		display: flex;
+	flex-direction: column; */
+	text-align: content;
+	margin: 170rpx 50rpx 0rpx 50rpx;
+	background-color: #FFFFFF;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	box-sizing: border-box;
+	/* border: 5rpx solid #007AFF; */
+}
+.van-cell {
+	/* border: 3rpx solid #07C160; */
+	text-align: center;
+	margin-top: 49rpx;
+}
+.van-field__body {
+	font-size: 30rpx;
+}
+.yuyue_content {
+	margin-top: 100rpx;
+	margin-left: 30rpx;
+}
+.yuyue_content text {
+	color: #646566;
+}
+.depart,
+.item,
+.time {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: baseline;
+	-webkit-align-items: baseline;
+	        align-items: baseline;
+	margin-top: 30rpx;
+	font-size: 35rpx;
+}
+.input-class {
+	background: rgba(255, 255, 255, 0);
+}
+.title {
+	margin-left: 20rpx;
+}
+.selectButton {
+	width: 350rpx;
+	background: rgba(255, 255, 255, 0);
+	box-shadow: none;
+	text-align: center;
+	font-size: 30rpx;
+	/* border: 3rpx solid #07C160; */
+}
+.submit_button {
+	width: 300rpx;
+	margin-top: 300rpx;
+}
+

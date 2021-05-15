@@ -1,0 +1,83 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/userInfo/userInfo",
+          "pathName": "pages/userInfo/userInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/userInfo/userInfo",
+          "pathName": "pages/userInfo/userInfo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/userpage/userpage",
+          "pathName": "pages/userpage/userpage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/consultpage/consultpage",
+          "pathName": "pages/consultpage/consultpage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/criticizepage/criticizepage",
+          "pathName": "pages/criticizepage/criticizepage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/yuyue/yuyue",
+          "pathName": "pages/yuyue/yuyue",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/jianyi/jianyi",
+          "pathName": "pages/jianyi/jianyi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/zixun/zixun",
+          "pathName": "pages/zixun/zixun",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noover/noover",
+          "pathName": "pages/noover/noover",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

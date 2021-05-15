@@ -1,0 +1,1 @@
+<view class="content"><list vue-id="36355140-1" dataList="{{dataFromService}}" haveData="{{haveData}}" showLabel="{{true}}" bind:__l="__l"></list></view>

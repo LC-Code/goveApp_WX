@@ -1,0 +1,35 @@
+
+.noEntryClass {
+	font-size: 30rpx;
+	margin-top: 10rpx;
+	box-shadow: 0rpx -1rpx 10rpx #a9a9a9;
+}
+.entryClass {
+	text-align: center;
+	margin-top: 20rpx;
+	font-size: 30rpx;
+	color: #a9a9a9;
+}
+.item_class {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.item_content_class {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin: 10rpx 10rpx;
+}
+.item_content_class text{
+	margin-left: 20rpx;
+}
+

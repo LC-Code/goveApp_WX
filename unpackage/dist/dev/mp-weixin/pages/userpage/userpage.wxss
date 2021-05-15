@@ -1,0 +1,46 @@
+
+.body {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin: 50rpx 90rpx;
+	border-radius: 20rpx;
+	box-shadow: 0rpx 0rpx 10rpx #333333;
+	margin-bottom: 60rpx;
+}
+.message {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin: 5rpx 90rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 25rpx;
+	margin-bottom: 20rpx;
+}
+.userinfo {
+	text-align: center;
+	margin-top: 10rpx;
+}
+.userinfo-name {
+	margin-top: 10rpx;
+}
+.message view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+
