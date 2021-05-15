@@ -29,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.vue?vue&type=script&lang=js& */ 35);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 /* harmony import */ var _home_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.vue?vue&type=style&index=0&lang=css& */ 38);
-/* harmony import */ var _D_Develop_Tools_HBuilderX_full_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 11);
+/* harmony import */ var _D_Develop_Tools_HBuilderX_full_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 12);
 
 var renderjs
 
@@ -189,7 +189,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _dialog = _interopRequireDefault(__webpack_require__(/*! ../../wxcomponents/@vant/weapp/dialog/dialog */ 28));
+var _dialog = _interopRequireDefault(__webpack_require__(/*! ../../wxcomponents/@vant/weapp/dialog/dialog */ 9));
 var _requestUtils = _interopRequireDefault(__webpack_require__(/*! ../../utils/requestUtils.js */ 8));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -272,9 +272,7 @@ var amapFile = __webpack_require__(/*! ../../utils/amap-wx.js */ 37);var beforeC
             success: function success(res) {
               if (res.code) {
                 getApp().globalData.login = true;
-                _requestUtils.default.getServiceOpendId(that, "首页",
-                "http://192.168.1.100:8080/",
-                res.code);
+                _requestUtils.default.getServiceOpendId(that, "首页", that.$baseURL, res.code);
                 // MyRequest.getServiceUser("首页", that.$baseURL, getApp().globalData.opendId, that)
               } else {
                 console.log("首页---登录失败");

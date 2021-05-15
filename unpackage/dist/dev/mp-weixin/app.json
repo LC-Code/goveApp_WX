@@ -54,5 +54,6 @@
     "van-notify": "wxcomponents/@vant/weapp/notify/index",
     "van-collapse": "wxcomponents/@vant/weapp/collapse/index",
     "van-collapse-item": "wxcomponents/@vant/weapp/collapse-item/index"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

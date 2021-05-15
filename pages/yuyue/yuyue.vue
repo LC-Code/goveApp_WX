@@ -177,6 +177,9 @@
 										console.log(res)
 									},
 									fail(res) {
+										uni.navigateBack({
+											delta:1
+										})
 										console.log(res)
 									}
 								})

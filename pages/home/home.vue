@@ -131,9 +131,7 @@
 							success: (res) => {
 								if (res.code) {
 									getApp().globalData.login = true;
-									MyRequest.getServiceOpendId(that, "首页",
-										"http://192.168.1.100:8080/",
-										res.code);
+									MyRequest.getServiceOpendId(that, "首页",that.$baseURL,res.code);
 									// MyRequest.getServiceUser("首页", that.$baseURL, getApp().globalData.opendId, that)
 								} else {
 									console.log("首页---登录失败");

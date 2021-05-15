@@ -167,6 +167,23 @@ export default {
 						console.log(pageName + "---添加本地 user 缓存失败 ");
 					}
 				} else {
+					//服务其中没有该用户的注册 先注册保存opendid
+					let user = res.data;
+					user.userCode = opendid
+					uni.request({
+						url:baseUrl+"user/save.do",
+						method:"POST",
+						header:{
+							"Content-Type":"application/json"
+						},
+						data:user,
+						success: (res) => {
+							console.log(res)
+						},
+						fail: (res) => {
+							console.log(res)
+						}
+					})
 					console.log(pageName + "---服务端User数据获取失败,错误信息如下");
 					console.log(res.data);
 				}
